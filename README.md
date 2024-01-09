@@ -1,4 +1,4 @@
-run ascii.py add path to your image or url image. .png will be saved to your dsesktop
+run ascii.py add path to your image or url image. .png will be saved to your desktop
 
 Edit def enhance_color(color, factor=2.5):  # Increase factor to enhance color vibrance.
 
