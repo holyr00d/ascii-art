@@ -6,7 +6,7 @@ from io import BytesIO
 ASCII_CHARS = "@%#*+=-:. "
 FONT_SIZE = 10  # Adjust as needed
 
-def enhance_color(color, factor=2.5):  # Increase factor to enhance vibrance
+def enhance_color(color, factor=2.2):  # Increase/decrease factor to enhance vibrance
     return tuple(min(int(comp * factor), 255) for comp in color)
 
 def resize_image(image, new_width=100):
